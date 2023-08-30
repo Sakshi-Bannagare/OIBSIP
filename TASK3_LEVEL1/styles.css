@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url(img3.jpg);
+}
+#convert {
+    background-color: #bba768;
+  }
+  #convert:hover {
+    background-color: #bcc768;
+  }
+  h1 {
+    font-family: sans-serif;
+    color: #70b2e5;
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #f4a55a;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { 
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    margin-right: 11rem;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #1d0b0b;
+  }
+
+  #convert{
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  select {
+    display: block;
+    padding: 10px;
+    font-size: 1em;
+    color: #545454;
+    font-family: cursive, sans-serif;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 1rem;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .container button {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+
+  .input-output-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result{
+    margin-right: 9rem;
+}
+h1{
+font-size: xx-large;   
+font-family:cursive;
+font-weight:bold;
+color:#545454;
+
+}
